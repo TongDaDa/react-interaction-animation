@@ -1,0 +1,47 @@
+.scale-touch-tag{
+    position: relative;
+    overflow: hidden;
+    padding: 15px 5px;
+}
+
+@keyframes grow {
+    from{
+        visibility: visible;
+        opacity: 1;
+    }
+    to{
+        transform: scale(10);
+        opacity: .1;
+    }
+}
+
+.scale-touch-tag {
+    position: relative;
+    overflow: hidden;
+    padding: 15px 5px;
+    transition: .35s all;
+}
+
+.scale-touch-tag.scale-touch-hover{  background-color:#f0f0f0; }
+
+.scale-touch-tag.scale-touch-active > div[data-type="background"]{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left:50%;
+    right: 50%;
+    border-radius: 50%;
+    background: #d1d1d1;
+    visibility: hidden;
+    animation-name:grow;
+    animation-timing-function:  ease;
+    animation-duration:1s;
+    transform: scale(2);
+    z-index: 1;
+}
+
+
+.scale-touch-tag > div[data-type="content"]{
+    position: relative;
+    z-index: 20;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "react-interaction-animation",
+  "version": "1.0.0",
+  "description": "react-interaction-animation",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TongDaDa/react-interaction-animation.git"
+  },
+  "keywords": [
+    "react-component"
+  ],
+  "author": "a fly pig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TongDaDa/react-interaction-animation/issues"
+  },
+  "homepage": "https://github.com/TongDaDa/react-interaction-animation#readme"
+}
